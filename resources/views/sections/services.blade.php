@@ -71,7 +71,7 @@
     class="js-modal-bg js-modal-close hidden fixed bg-black bg-opacity-50 flex justify-center h-screen w-screen top-0">
     <div class="text-center my-auto w-4/5 sm:w-3/5 lg:w-2/5 cutcorner">
 
-        <div class="js-modal-content-1 hidden">
+        <div class="js-modal-content hidden" data-id="js-modal-content-1">
             <h3 class="text-black text-xl sm:text-4xl my-4">Player Representation</h3>
             <p
                 class="text-sm xl:text-base sm:font-bold text-black mb-8 mx-auto max-w-lg px-4 sm:py-8 bg-cardpr bg-contain bg-center bg-no-repeat">
@@ -81,7 +81,7 @@
                 as well as mentoring, all whilst working closely with their families.</p>
         </div>
 
-        <div class="js-modal-content-2 hidden">
+        <div class="js-modal-content hidden" data-id="js-modal-content-2">
             <h3 class="text-black text-xl sm:text-4xl my-4">Career Development</h3>
             <p
                 class="text-sm xl:text-base sm:font-bold text-black mb-8 mx-auto max-w-lg px-4 sm:py-8 bg-cardcd bg-contain bg-center bg-no-repeat">
@@ -93,7 +93,7 @@
                 plan to meet both the short- and long-term goals of our players.</p>
         </div>
 
-        <div class="js-modal-content-3 hidden">
+        <div class="js-modal-content hidden" data-id="js-modal-content-3">
             <h3 class="text-black text-xl sm:text-4xl my-4">Legal</h3>
             <p
                 class="text-sm xl:text-base sm:font-bold text-black mb-8 mx-auto max-w-lg px-4 sm:py-8 bg-cardlegal bg-contain bg-center bg-no-repeat">
@@ -103,7 +103,7 @@
                 number of reputable and trusted law firms over the years.</p>
         </div>
 
-        <div class="js-modal-content-4 hidden">
+        <div class="js-modal-content hidden" data-id="js-modal-content-4">
             <h3 class="text-black text-xl sm:text-4xl my-4">Off Field</h3>
             <p
                 class="text-sm xl:text-base sm:font-bold text-black mb-8 mx-auto max-w-lg px-4 sm:py-8 bg-cardof bg-contain bg-center bg-no-repeat">
